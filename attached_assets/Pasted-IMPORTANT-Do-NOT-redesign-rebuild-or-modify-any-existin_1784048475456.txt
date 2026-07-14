@@ -1,0 +1,94 @@
+IMPORTANT:
+Do NOT redesign, rebuild or modify any existing pages except the current final page.
+Keep ALL previous pages exactly as they are.
+
+Keep the current romantic design, color palette, typography, floating hearts, soft gradients, glassmorphism cards, shadows, animations and transitions exactly the same. The existing visual style is beautiful and should remain consistent throughout the website.
+
+Only replace the current final page ("Danke, dass es dich gibt.") with the following new page.
+
+----------------------------------------------------
+
+TASK
+
+Create a new romantic page with the same design style as the rest of the website.
+
+Large headline:
+
+❤️ Hast du Lust auf ein Date mit mir? ❤️
+
+Below the headline add a small subtitle:
+
+"Ich habe mir etwas ganz Besonderes überlegt... ❤️"
+
+Below that, place two large elegant buttons next to each other.
+
+Button 1:
+💚 Ja
+
+Button 2:
+❤️ Nein
+
+The "Ja" button should work normally.
+
+When the visitor clicks "Ja", smoothly transition to the next page.
+For now, simply create the navigation so another page can easily be added later.
+
+----------------------------------------------------
+
+THE "NEIN" BUTTON
+
+The "Nein" button should NEVER be clickable.
+
+Instead, it should playfully escape from the mouse.
+
+Behaviour:
+
+• When the cursor gets close, the button smoothly moves away.
+
+• Every time the visitor tries again, the button becomes a little smarter and faster.
+
+• Sometimes it only moves a little.
+
+• Sometimes it jumps to another position inside the card.
+
+• Sometimes it slightly rotates while escaping.
+
+• The movement should always stay inside the visible card/container.
+
+• The button must never leave the visible area.
+
+• The button should never overlap the "Ja" button.
+
+• The animation should feel smooth, playful and polished.
+
+• On mobile devices, if the visitor somehow touches the "Nein" button, immediately move it to another position.
+
+After several failed attempts (around 8–10), display a small playful message underneath the buttons:
+
+"Du gibst aber wirklich nicht auf... 😂"
+
+After a few more attempts, replace that message with:
+
+"Ich glaube, wir kennen die Antwort eigentlich beide. 😉❤️"
+
+The button should continue escaping forever.
+
+----------------------------------------------------
+
+GENERAL
+
+Do not change anything else on the website.
+
+Do not modify previous pages.
+
+Do not change fonts.
+
+Do not change colors.
+
+Do not change animations already created.
+
+Do not change spacing unless necessary for this page.
+
+Keep the overall romantic feeling exactly the same.
+
+Only replace the existing final page with this new page.

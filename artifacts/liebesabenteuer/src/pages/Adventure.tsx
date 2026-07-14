@@ -4,6 +4,7 @@ import { WelcomeStep } from '@/steps/WelcomeStep';
 import { QuestionStep } from '@/steps/QuestionStep';
 import { HeartCollectorStep } from '@/steps/HeartCollectorStep';
 import { WordPuzzleStep } from '@/steps/WordPuzzleStep';
+import { DateAskStep } from '@/steps/DateAskStep';
 import { FinaleStep } from '@/steps/FinaleStep';
 import { FloatingHearts } from '@/components/FloatingHearts';
 
@@ -26,6 +27,7 @@ export default function Adventure() {
       onNext={nextStep} 
     />,
     <WordPuzzleStep onNext={nextStep} />,
+    <DateAskStep onNext={nextStep} />,
     <FinaleStep />
   ];
 
