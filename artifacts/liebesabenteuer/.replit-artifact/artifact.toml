@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Ein kleines Abenteuer"
+version = "1.0.0"
+id = "artifacts/liebesabenteuer"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24306
+
+[services.development]
+run = "pnpm --filter @workspace/liebesabenteuer run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/liebesabenteuer", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/liebesabenteuer/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24306"
+BASE_PATH = "/"
