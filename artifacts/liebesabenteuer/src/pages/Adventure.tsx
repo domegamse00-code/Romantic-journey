@@ -5,13 +5,14 @@ import { QuestionStep } from '@/steps/QuestionStep';
 import { HeartCollectorStep } from '@/steps/HeartCollectorStep';
 import { WordPuzzleStep } from '@/steps/WordPuzzleStep';
 import { DateAskStep } from '@/steps/DateAskStep';
-import { FinaleStep } from '@/steps/FinaleStep';
+import { FoodChoiceStep } from '@/steps/FoodChoiceStep';
 import { FloatingHearts } from '@/components/FloatingHearts';
+import { FloatingFood } from '@/components/FloatingFood';
 
 export default function Adventure() {
   const [currentStep, setCurrentStep] = useState(0);
 
-  const nextStep = () => setCurrentStep(prev => prev + 1);
+  const nextStep = () => setCurrentStep(prev => Math.min(prev + 1, steps.length - 1));
 
   const steps = [
     <WelcomeStep onNext={nextStep} />,
@@ -28,8 +29,10 @@ export default function Adventure() {
     />,
     <WordPuzzleStep onNext={nextStep} />,
     <DateAskStep onNext={nextStep} />,
-    <FinaleStep />
+    <FoodChoiceStep onNext={nextStep} />
   ];
+
+  const FOOD_STEP_INDEX = steps.length - 1;
 
   return (
     <div className="min-h-[100dvh] w-full bg-background overflow-hidden relative flex items-center justify-center p-4 sm:p-8">
@@ -37,7 +40,7 @@ export default function Adventure() {
       <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-secondary/50 blur-[120px] pointer-events-none" />
       <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-full bg-primary/20 blur-[150px] pointer-events-none" />
       
-      <FloatingHearts />
+      {currentStep === FOOD_STEP_INDEX ? <FloatingFood /> : <FloatingHearts />}
       
       <AnimatePresence mode="wait">
         <motion.div

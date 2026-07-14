@@ -1,0 +1,198 @@
+IMPORTANT - READ CAREFULLY
+
+You are continuing an existing project.
+
+DO NOT redesign, rebuild or modify any previous pages.
+
+Keep EVERYTHING exactly as it currently is.
+
+That includes:
+• Colors
+• Typography
+• Floating animations
+• Glassmorphism cards
+• Shadows
+• Buttons
+• Layout
+• Navigation
+• Transitions
+• Romantic atmosphere
+• Responsive behavior
+
+The current design is perfect and must remain consistent.
+
+------------------------------------------------------------
+
+IMPORTANT
+
+Remove ONLY the automatically generated final page ("Danke, dass es dich gibt.").
+
+Replace ONLY this page with the new page described below.
+
+Do not modify anything else.
+
+------------------------------------------------------------
+
+NEW PAGE
+
+Headline:
+
+🍴 Wo möchtest du mit mir essen gehen? ❤️
+
+Subtitle:
+
+"Such dir einfach aus, worauf du heute am meisten Lust hast."
+
+------------------------------------------------------------
+
+BACKGROUND
+
+Replace the floating hearts on THIS PAGE ONLY with many small floating food illustrations.
+
+Use a mixture of:
+
+🍔 Burger
+
+🍕 Pizza
+
+🥩 Steak
+
+🍣 Sushi
+
+🥗 Salat
+
+🥙 Döner
+
+🍟 Pommes
+
+🌮 Taco
+
+🥨 Brezel
+
+🥐 Croissant
+
+The floating animation should feel exactly like the hearts on the other pages.
+
+Slow.
+
+Elegant.
+
+Smooth.
+
+The rest of the website should continue using hearts.
+
+------------------------------------------------------------
+
+FOOD SELECTION
+
+Create six beautiful cards.
+
+Each card should match the existing romantic design.
+
+Cards:
+
+🍔 Burger
+
+🍕 Pizza
+
+🥩 Steak
+
+🥡 Chinesisch
+
+🍣 Japanisch
+
+🎁 Überraschung
+
+Hover effects should feel premium and smooth.
+
+------------------------------------------------------------
+
+WHEN A FOOD IS SELECTED
+
+Immediately save the selected option internally.
+
+Do NOT show that it has been saved.
+
+We will use this information later.
+
+Fade out all cards.
+
+Darken the background slightly.
+
+Show the selected food icon very large in the middle.
+
+Example:
+
+🍕
+
+Pizza
+
+Play one elegant bounce animation.
+
+Then display:
+
+✨ Eine ausgezeichnete Wahl! 😍
+
+After about one second display:
+
+"Mmmm... lecker!
+
+Ich freue mich schon."
+
+Wait approximately two seconds.
+
+Automatically continue to the next page.
+
+------------------------------------------------------------
+
+IF "ÜBERRASCHUNG" IS SELECTED
+
+Instead of displaying food, show:
+
+🎁
+
+Large text:
+
+"Hab ich mir schon fast gedacht. 😄❤️"
+
+Keep the same elegant transition.
+
+Wait about two seconds.
+
+Automatically continue afterwards.
+
+------------------------------------------------------------
+
+MEMORY SYSTEM
+
+This page is part of a larger interactive journey.
+
+Create an internal answer object if it does not already exist.
+
+Store the selected option as:
+
+foodChoice
+
+Do not display this information anywhere.
+
+It should only be stored internally so it can later be exported together with all other answers (date, activity, time, etc.).
+
+------------------------------------------------------------
+
+VERY IMPORTANT
+
+Do NOT change previous pages.
+
+Do NOT change the navigation.
+
+Do NOT redesign anything.
+
+Do NOT change fonts.
+
+Do NOT change colors.
+
+Do NOT change animations already created.
+
+Only replace the automatically generated final page with this new page.
+
+Everything else must stay exactly the same.
