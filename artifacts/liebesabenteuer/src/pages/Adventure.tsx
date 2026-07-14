@@ -37,12 +37,24 @@ export default function Adventure() {
 
   const FOOD_STEP_INDEX = 6;
   const ACTIVITY_STEP_INDEX = 7;
+  const isChapterTwo = currentStep === ACTIVITY_STEP_INDEX;
 
   return (
-    <div className="min-h-[100dvh] w-full bg-background overflow-hidden relative flex items-center justify-center p-4 sm:p-8">
-      {/* Decorative gradient orb */}
-      <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-secondary/50 blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-full bg-primary/20 blur-[150px] pointer-events-none" />
+    <div className={`min-h-[100dvh] w-full overflow-hidden relative flex items-center justify-center p-4 sm:p-8 ${isChapterTwo ? 'bg-[#0b0611]' : 'bg-background'}`}>
+      {/* Decorative gradient orbs — cinematic dark theme for Chapter 2, light theme everywhere else */}
+      {isChapterTwo ? (
+        <>
+          <div className="fixed inset-0 bg-gradient-to-br from-[#1a0b2e] via-[#120a1f] to-black pointer-events-none" />
+          <div className="fixed top-[-15%] left-[-10%] w-[70%] h-[60%] rounded-full bg-primary/25 blur-[140px] pointer-events-none" />
+          <div className="fixed bottom-[-20%] right-[-15%] w-[75%] h-[65%] rounded-full bg-fuchsia-500/15 blur-[150px] pointer-events-none" />
+          <div className="fixed top-1/3 left-1/2 -translate-x-1/2 w-[50%] h-[40%] rounded-full bg-pink-400/10 blur-[120px] pointer-events-none" />
+        </>
+      ) : (
+        <>
+          <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-secondary/50 blur-[120px] pointer-events-none" />
+          <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-full bg-primary/20 blur-[150px] pointer-events-none" />
+        </>
+      )}
       
       {currentStep === FOOD_STEP_INDEX ? (
         <FloatingFood />
