@@ -6,6 +6,7 @@ import { HeartCollectorStep } from '@/steps/HeartCollectorStep';
 import { WordPuzzleStep } from '@/steps/WordPuzzleStep';
 import { DateAskStep } from '@/steps/DateAskStep';
 import { FoodChoiceStep } from '@/steps/FoodChoiceStep';
+import { ActivityChoiceStep } from '@/steps/ActivityChoiceStep';
 import { FloatingHearts } from '@/components/FloatingHearts';
 import { FloatingFood } from '@/components/FloatingFood';
 
@@ -29,10 +30,11 @@ export default function Adventure() {
     />,
     <WordPuzzleStep onNext={nextStep} />,
     <DateAskStep onNext={nextStep} />,
-    <FoodChoiceStep onNext={nextStep} />
+    <FoodChoiceStep onNext={nextStep} />,
+    <ActivityChoiceStep onNext={nextStep} />
   ];
 
-  const FOOD_STEP_INDEX = steps.length - 1;
+  const FOOD_STEP_INDEX = 6;
 
   return (
     <div className="min-h-[100dvh] w-full bg-background overflow-hidden relative flex items-center justify-center p-4 sm:p-8">

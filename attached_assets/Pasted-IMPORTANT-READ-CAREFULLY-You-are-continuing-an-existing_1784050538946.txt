@@ -1,0 +1,179 @@
+IMPORTANT - READ CAREFULLY
+
+You are continuing an existing interactive romantic website.
+
+DO NOT redesign, rebuild or modify any previous pages.
+
+Keep ALL previous pages exactly as they are.
+
+That includes:
+• Colors
+• Fonts
+• Animations
+• Layout
+• Navigation
+• Buttons
+• Glassmorphism style
+• Shadows
+• Transitions
+• Responsive behavior
+
+The current design is perfect and must stay exactly the same.
+
+------------------------------------------------------------
+
+IMPORTANT
+
+Connect the previous food selection page to this new page.
+
+After the food selection animation finishes, automatically navigate to this page.
+
+Remove ONLY the automatically generated final page and replace it with this page.
+
+Do not modify anything else.
+
+------------------------------------------------------------
+
+PROGRESS
+
+This page is Chapter 2 of 5.
+
+At the top of the card, above the headline, display a small elegant progress indicator.
+
+Display:
+
+❤️❤️🤍🤍🤍
+
+Below it write:
+
+Kapitel 2 von 5
+
+Use a small elegant font.
+
+Animate the hearts with a soft glowing effect.
+
+------------------------------------------------------------
+
+NEW PAGE
+
+Create a beautiful romantic page.
+
+Unlike the previous page, use a dark elegant background.
+
+Create a dark purple to black gradient with soft pink lighting.
+
+Bring back the floating pink hearts.
+
+The hearts should slowly float through the background exactly like on the previous romantic pages.
+
+The page should feel magical, elegant and modern.
+
+------------------------------------------------------------
+
+Headline
+
+❤️ Wo möchtest du am liebsten hin? ❤️
+
+Subtitle
+
+"Wähle einfach aus, worauf du am meisten Lust hast."
+
+------------------------------------------------------------
+
+Create six elegant selection cards.
+
+Each card should have the same premium glassmorphism design.
+
+Hover animations should feel smooth and modern.
+
+The cards:
+
+🎬 Kino
+
+🧖 Ein Tag in der Therme
+
+🛍️ Shopping
+
+⛳ Minigolf
+
+🧺 Picknick
+
+📺 Netflix and Chill
+
+Arrange them beautifully in two rows.
+
+------------------------------------------------------------
+
+WHEN THE USER CLICKS A CARD
+
+Save the selected option internally.
+
+Store it as:
+
+activityChoice
+
+Do not display that it has been saved.
+
+Fade out all cards.
+
+Darken the background slightly.
+
+Show the selected activity icon very large in the middle.
+
+Examples:
+
+🎬
+
+Kino
+
+or
+
+🛍️
+
+Shopping
+
+Animate the icon with one elegant bounce animation.
+
+After that display:
+
+✨ Super! Ich freue mich schon riesig darauf. ❤️
+
+Wait about two seconds.
+
+Automatically continue to the next page.
+
+------------------------------------------------------------
+
+MEMORY SYSTEM
+
+This website is collecting all answers.
+
+If the answer object already exists, continue using it.
+
+Save:
+
+activityChoice
+
+Do not show this information anywhere.
+
+We will later save all collected answers together.
+
+------------------------------------------------------------
+
+VERY IMPORTANT
+
+Do NOT modify previous pages.
+
+Do NOT change navigation.
+
+Do NOT redesign anything.
+
+Do NOT change colors.
+
+Do NOT change fonts.
+
+Do NOT change animations already created.
+
+Only replace the automatically generated final page.
+
+Everything else must remain exactly the same.
