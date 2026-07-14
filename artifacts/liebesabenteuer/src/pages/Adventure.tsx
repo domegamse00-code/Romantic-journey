@@ -9,11 +9,13 @@ import { FoodChoiceStep } from '@/steps/FoodChoiceStep';
 import { ActivityChoiceStep } from '@/steps/ActivityChoiceStep';
 import { DateTimeStep } from '@/steps/DateTimeStep';
 import { TeamQuizStep } from '@/steps/TeamQuizStep';
+import { FinalDateStep } from '@/steps/FinalDateStep';
 import { FloatingHearts } from '@/components/FloatingHearts';
 import { FloatingFood } from '@/components/FloatingFood';
 import { FloatingHeartsPremium } from '@/components/FloatingHeartsPremium';
 import { NightSky } from '@/components/NightSky';
 import { SunsetOcean } from '@/components/SunsetOcean';
+import { RomanticFinale } from '@/components/RomanticFinale';
 
 export default function Adventure() {
   const [currentStep, setCurrentStep] = useState(0);
@@ -38,21 +40,26 @@ export default function Adventure() {
     <FoodChoiceStep onNext={nextStep} />,
     <ActivityChoiceStep onNext={nextStep} />,
     <DateTimeStep onNext={nextStep} />,
-    <TeamQuizStep onNext={nextStep} />
+    <TeamQuizStep onNext={nextStep} />,
+    <FinalDateStep />
   ];
 
   const FOOD_STEP_INDEX = 6;
   const ACTIVITY_STEP_INDEX = 7;
   const DATE_STEP_INDEX = 8;
   const QUIZ_STEP_INDEX = 9;
+  const FINAL_STEP_INDEX = 10;
   const isChapterTwo = currentStep === ACTIVITY_STEP_INDEX;
   const isChapterThree = currentStep === DATE_STEP_INDEX;
   const isChapterFour = currentStep === QUIZ_STEP_INDEX;
+  const isChapterFive = currentStep === FINAL_STEP_INDEX;
 
   return (
-    <div className={`min-h-[100dvh] w-full relative flex items-center justify-center p-4 sm:p-8 ${isChapterThree || isChapterFour ? 'overflow-y-auto overflow-x-hidden py-10' : 'overflow-hidden'} ${isChapterTwo || isChapterThree ? 'bg-[#0b0611]' : isChapterFour ? 'bg-[#2c1250]' : 'bg-background'}`}>
-      {/* Decorative gradient orbs — cinematic dark theme for Chapters 2 & 3, warm sunset for Chapter 4, light theme everywhere else */}
-      {isChapterFour ? (
+    <div className={`min-h-[100dvh] w-full relative flex items-center justify-center p-4 sm:p-8 ${isChapterThree || isChapterFour || isChapterFive ? 'overflow-y-auto overflow-x-hidden py-10' : 'overflow-hidden'} ${isChapterTwo || isChapterThree ? 'bg-[#0b0611]' : isChapterFour ? 'bg-[#2c1250]' : isChapterFive ? 'bg-[#3a1650]' : 'bg-background'}`}>
+      {/* Decorative gradient orbs — cinematic dark theme for Chapters 2 & 3, warm sunset for Chapter 4, romantic finale for Chapter 5, light theme everywhere else */}
+      {isChapterFive ? (
+        <RomanticFinale />
+      ) : isChapterFour ? (
         <SunsetOcean />
       ) : isChapterThree ? (
         <NightSky />
@@ -70,7 +77,7 @@ export default function Adventure() {
         </>
       )}
       
-      {currentStep === FOOD_STEP_INDEX ? (
+      {isChapterFive ? null : currentStep === FOOD_STEP_INDEX ? (
         <FloatingFood />
       ) : currentStep === ACTIVITY_STEP_INDEX || currentStep === DATE_STEP_INDEX || currentStep === QUIZ_STEP_INDEX ? (
         <FloatingHeartsPremium />
@@ -85,7 +92,7 @@ export default function Adventure() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: -20, scale: 1.05 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className={`w-full z-10 ${isChapterFour ? 'max-w-xl' : 'max-w-lg'}`}
+          className={`w-full z-10 ${isChapterFour || isChapterFive ? 'max-w-xl' : 'max-w-lg'}`}
         >
           {steps[currentStep]}
         </motion.div>
