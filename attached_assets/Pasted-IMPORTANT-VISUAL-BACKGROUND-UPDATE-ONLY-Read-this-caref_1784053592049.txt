@@ -1,0 +1,186 @@
+IMPORTANT - VISUAL BACKGROUND UPDATE ONLY
+
+Read this carefully before making any changes.
+
+DO NOT modify any functionality.
+
+DO NOT modify any previous pages.
+
+DO NOT modify navigation.
+
+DO NOT modify animations that already work.
+
+DO NOT modify the calendar.
+
+DO NOT modify the time picker.
+
+DO NOT modify the progress indicator.
+
+DO NOT modify the glassmorphism card.
+
+DO NOT modify stored answers.
+
+DO NOT modify transitions.
+
+Everything should continue working exactly as it does now.
+
+------------------------------------------------------------
+
+This request ONLY affects the visual background of Chapter 3.
+
+Everything inside the main card must remain exactly the same.
+
+------------------------------------------------------------
+
+🌙 MOON
+
+Keep the moon exactly as it is visually.
+
+However, animate it so it slowly travels across the night sky.
+
+The movement should be EXTREMELY slow.
+
+Start near the left side of the screen.
+
+Over several minutes, let the moon slowly move towards the right side.
+
+The movement should loop forever.
+
+The visitor should barely notice the movement.
+
+The moon should continue glowing softly with a pink-white halo.
+
+------------------------------------------------------------
+
+⭐ STARS
+
+Keep all existing stars.
+
+Add more tiny stars for a richer night sky.
+
+Some stars should twinkle gently.
+
+Different brightness.
+
+Different sizes.
+
+Very subtle animation.
+
+------------------------------------------------------------
+
+☄️ SHOOTING STARS
+
+Keep the shooting stars.
+
+Create one approximately every 3–5 seconds.
+
+Every shooting star should be different.
+
+• Random starting position
+• Random angle
+• Random speed
+• Different trail length
+
+The trail should softly glow and slowly disappear.
+
+Sometimes two shooting stars may appear close together.
+
+The animation should always feel magical and alive.
+
+------------------------------------------------------------
+
+❤️ HEARTS
+
+Keep the floating pink hearts.
+
+Different sizes.
+
+Different opacity.
+
+Different speeds.
+
+Some hearts should softly blur while floating.
+
+The hearts should never distract from the content.
+
+------------------------------------------------------------
+
+🌆 MUNICH SKYLINE
+
+Remove the animated black moving lines at the bottom completely.
+
+Replace them with a beautiful panoramic silhouette of Munich.
+
+The skyline should stretch across the entire bottom of the screen.
+
+Include recognizable landmarks such as:
+
+• Olympiaturm
+• Frauenkirche
+• Allianz Arena
+• Neues Rathaus
+• Several modern and historic Munich buildings
+
+Do NOT make the skyline highly detailed.
+
+It should look elegant, minimalistic and premium.
+
+The skyline should be almost black with a very subtle purple tint.
+
+------------------------------------------------------------
+
+💡 LIGHTING
+
+Behind the skyline create a soft purple and pink ambient glow.
+
+The glow should look like moonlight gently illuminating the city.
+
+Some windows may have tiny warm lights.
+
+The skyline should softly fade into the night sky.
+
+------------------------------------------------------------
+
+🌊 DEPTH
+
+Create a subtle atmospheric haze between the skyline and the sky.
+
+This should create cinematic depth.
+
+The entire background should feel peaceful, romantic and luxurious.
+
+------------------------------------------------------------
+
+🎨 OVERALL STYLE
+
+The page should look like a premium romantic web application.
+
+Minimalistic.
+
+Elegant.
+
+Luxury.
+
+Dreamy.
+
+Cinematic.
+
+Everything should feel calm and magical.
+
+------------------------------------------------------------
+
+IMPORTANT
+
+Absolutely NOTHING else should change.
+
+Keep every animation, every interaction and every function exactly as it currently works.
+
+ONLY improve the background with:
+
+• Slowly moving moon
+• Beautiful Munich skyline
+• Soft purple lighting
+• More realistic night atmosphere
+• Remove the moving black lines
+
+Everything else must remain untouched.
