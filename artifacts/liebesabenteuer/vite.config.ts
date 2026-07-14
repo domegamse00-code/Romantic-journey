@@ -1,9 +1,9 @@
-import path from 'path';
-import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite';
-import { defineConfig } from 'vite';
+import path from "path";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from "vite";
 
-import runtimeErrorOverlay from '@replit/vite-plugin-runtime-error-modal';
+import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 const port = Number(process.env.PORT || 3000);
 const basePath = process.env.BASE_PATH || "/";
@@ -14,15 +14,15 @@ export default defineConfig({
     react(),
     tailwindcss(),
     runtimeErrorOverlay(),
-    ...(process.env.NODE_ENV !== 'production' &&
+    ...(process.env.NODE_ENV !== "production" &&
     process.env.REPL_ID !== undefined
       ? [
-          await import('@replit/vite-plugin-cartographer').then((m) =>
+          await import("@replit/vite-plugin-cartographer").then((m) =>
             m.cartographer({
-              root: path.resolve(import.meta.dirname, '..'),
+              root: path.resolve(import.meta.dirname, ".."),
             }),
           ),
-          await import('@replit/vite-plugin-dev-banner').then((m) =>
+          await import("@replit/vite-plugin-dev-banner").then((m) =>
             m.devBanner(),
           ),
         ]
@@ -30,25 +30,25 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': path.resolve(import.meta.dirname, 'src'),
-      '@assets': path.resolve(
+      "@": path.resolve(import.meta.dirname, "src"),
+      "@assets": path.resolve(
         import.meta.dirname,
-        '..',
-        '..',
-        'attached_assets',
+        "..",
+        "..",
+        "attached_assets",
       ),
     },
-    dedupe: ['react', 'react-dom'],
+    dedupe: ["react", "react-dom"],
   },
   root: path.resolve(import.meta.dirname),
   build: {
-    outDir: path.resolve(import.meta.dirname, 'dist/public'),
+    outDir: "dist",
     emptyOutDir: true,
   },
   server: {
     port,
     strictPort: true,
-    host: '0.0.0.0',
+    host: "0.0.0.0",
     allowedHosts: true,
     fs: {
       strict: true,
@@ -56,7 +56,7 @@ export default defineConfig({
   },
   preview: {
     port,
-    host: '0.0.0.0',
+    host: "0.0.0.0",
     allowedHosts: true,
   },
 });
