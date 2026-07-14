@@ -1,0 +1,149 @@
+IMPORTANT - DESIGN UPDATE ONLY
+
+DO NOT change any functionality.
+
+DO NOT change navigation.
+
+DO NOT change animations.
+
+DO NOT change the stored answers.
+
+DO NOT change the selection logic.
+
+DO NOT change the progress system.
+
+DO NOT change the cards or their text.
+
+ONLY improve the visual design of THIS page.
+
+------------------------------------------------------------
+
+Keep the current page exactly as it works now.
+
+Only redesign the appearance.
+
+The goal is to make this page look much more premium, elegant and romantic.
+
+Use the following style:
+
+• Dark luxury romantic theme
+• Deep purple to black gradient background
+• Strong pink ambient glow
+• Soft light around the center
+• More floating glowing pink hearts
+• Hearts should have different sizes and different opacity
+• Hearts should slowly float and slightly blur while moving
+
+------------------------------------------------------------
+
+MAIN CARD
+
+Make the main card much larger.
+
+Approximately 650-750px wide.
+
+Rounded corners.
+
+Soft glassmorphism effect.
+
+Slight transparency.
+
+Beautiful blurred background.
+
+Elegant shadow.
+
+Very premium look.
+
+------------------------------------------------------------
+
+TOP
+
+Keep the progress indicator.
+
+❤️❤️🤍🤍🤍
+
+Kapitel 2 von 5
+
+Center everything.
+
+Increase spacing.
+
+------------------------------------------------------------
+
+HEADLINE
+
+Make the headline much larger.
+
+Elegant typography.
+
+More spacing.
+
+Premium feeling.
+
+------------------------------------------------------------
+
+SUBTITLE
+
+Increase spacing.
+
+Make it easier to read.
+
+Use a lighter text color.
+
+------------------------------------------------------------
+
+CARDS
+
+Completely redesign the option cards.
+
+Make them much larger.
+
+Use two rows with three cards.
+
+Lots of spacing.
+
+Each card should look luxurious.
+
+Glass effect.
+
+Soft borders.
+
+Pink glow on hover.
+
+Smooth hover animation.
+
+Cards should slightly lift when hovered.
+
+------------------------------------------------------------
+
+ICONS
+
+Use beautiful modern emoji/icons.
+
+Make them much larger.
+
+Center everything.
+
+------------------------------------------------------------
+
+BACKGROUND
+
+Create much more depth.
+
+The background should feel cinematic.
+
+Luxury.
+
+Romantic.
+
+Dreamy.
+
+------------------------------------------------------------
+
+IMPORTANT
+
+Do NOT modify any functionality.
+
+Only improve the visual design.
+
+Everything should continue working exactly as before.

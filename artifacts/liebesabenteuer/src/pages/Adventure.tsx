@@ -9,6 +9,7 @@ import { FoodChoiceStep } from '@/steps/FoodChoiceStep';
 import { ActivityChoiceStep } from '@/steps/ActivityChoiceStep';
 import { FloatingHearts } from '@/components/FloatingHearts';
 import { FloatingFood } from '@/components/FloatingFood';
+import { FloatingHeartsPremium } from '@/components/FloatingHeartsPremium';
 
 export default function Adventure() {
   const [currentStep, setCurrentStep] = useState(0);
@@ -35,6 +36,7 @@ export default function Adventure() {
   ];
 
   const FOOD_STEP_INDEX = 6;
+  const ACTIVITY_STEP_INDEX = 7;
 
   return (
     <div className="min-h-[100dvh] w-full bg-background overflow-hidden relative flex items-center justify-center p-4 sm:p-8">
@@ -42,7 +44,13 @@ export default function Adventure() {
       <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-secondary/50 blur-[120px] pointer-events-none" />
       <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-full bg-primary/20 blur-[150px] pointer-events-none" />
       
-      {currentStep === FOOD_STEP_INDEX ? <FloatingFood /> : <FloatingHearts />}
+      {currentStep === FOOD_STEP_INDEX ? (
+        <FloatingFood />
+      ) : currentStep === ACTIVITY_STEP_INDEX ? (
+        <FloatingHeartsPremium />
+      ) : (
+        <FloatingHearts />
+      )}
       
       <AnimatePresence mode="wait">
         <motion.div
