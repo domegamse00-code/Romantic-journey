@@ -1,0 +1,288 @@
+IMPORTANT - READ CAREFULLY
+
+You are continuing an existing interactive romantic website.
+
+DO NOT redesign, rebuild or modify any previous pages.
+
+Keep EVERYTHING exactly as it currently is.
+
+That includes:
+
+• Colors
+• Fonts
+• Navigation
+• Buttons
+• Animations
+• Glassmorphism
+• Stored answers
+• Responsive layout
+• Previous chapters
+
+Everything already created must remain exactly the same.
+
+------------------------------------------------------------
+
+IMPORTANT
+
+Connect the previous Date & Time page to this page.
+
+After the confirmation animation finishes, automatically navigate to this page.
+
+Remove ONLY the automatically generated final page.
+
+Replace it with the page described below.
+
+Do NOT modify anything else.
+
+------------------------------------------------------------
+
+PROGRESS
+
+This is Chapter 4 of 5.
+
+Display at the top:
+
+❤️❤️❤️❤️🤍
+
+Kapitel 4 von 5
+
+The hearts should softly glow.
+
+------------------------------------------------------------
+
+BACKGROUND
+
+Create a warm vacation atmosphere.
+
+The page should feel cozy, relaxing and romantic.
+
+Use:
+
+• Sunset sky
+• Orange and pink gradients
+• Calm ocean
+• Palm tree silhouettes
+• Soft moving clouds
+• Gentle animated waves
+• Small glowing stars beginning to appear
+• Warm ambient lighting
+
+The atmosphere should remind the visitor of a beautiful holiday together.
+
+------------------------------------------------------------
+
+MAIN CARD
+
+Create a premium glassmorphism card.
+
+Rounded corners.
+
+Soft blur.
+
+Warm lighting.
+
+Luxury appearance.
+
+------------------------------------------------------------
+
+HEADLINE
+
+🌴 Unsere gemeinsame Zeit als...
+
+------------------------------------------------------------
+
+WORD PUZZLE
+
+Display the hidden word like this:
+
+_ _ _ _
+
+The hidden word is:
+
+TEAM
+
+Reveal one letter after every correct answer.
+
+Example:
+
+After question 1:
+
+T _ _ _
+
+After question 2:
+
+T E _ _
+
+After question 3:
+
+T E A _
+
+After question 4:
+
+T E A M
+
+Animate every revealed letter with a soft glow and a bounce animation.
+
+------------------------------------------------------------
+
+QUESTION 1
+
+Where did we first fly together for our vacation?
+
+Answers:
+
+🇵🇹 Madeira ✅
+
+🇬🇷 Greece
+
+🇭🇷 Croatia
+
+Only Madeira is correct.
+
+------------------------------------------------------------
+
+QUESTION 2
+
+Which artist does Dominic listen to the most?
+
+Answers:
+
+🔥 Travis Scott ✅
+
+🎤 Ariana Grande
+
+🎧 HeadB3ats
+
+Only Travis Scott is correct.
+
+------------------------------------------------------------
+
+QUESTION 3
+
+From which TV series does Dominic have a carpet?
+
+Answers:
+
+🟢 Adventure Time ✅
+
+🟡 Rick and Morty
+
+🔵 Stranger Things
+
+Only Adventure Time is correct.
+
+------------------------------------------------------------
+
+QUESTION 4
+
+What are we together?
+
+Answers:
+
+❤️ A Team ✅
+
+💕
+
+A Couple
+
+🙋 Not Alone
+
+Only "A Team" is considered correct because it completes the hidden word.
+
+------------------------------------------------------------
+
+CORRECT ANSWERS
+
+After every correct answer:
+
+Show:
+
+✅ Richtig! 🎉
+
+Reveal one new letter.
+
+Wait one second.
+
+Automatically continue to the next question.
+
+------------------------------------------------------------
+
+WRONG ANSWERS
+
+If ANY wrong answer is selected:
+
+Show a small playful animation.
+
+Briefly shake the card.
+
+Flash the background softly red.
+
+Display:
+
+"Oh nein... versuch's nochmal! ❤️"
+
+Wait about 1.5 seconds.
+
+Restart the ENTIRE quiz.
+
+Hide all letters again.
+
+Return to Question 1.
+
+------------------------------------------------------------
+
+FINISH
+
+When all four questions are answered correctly:
+
+Reveal:
+
+T E A M
+
+Celebrate with confetti.
+
+Animate the word with a glow.
+
+Display:
+
+🎉 Super!
+
+Du hast es geschafft!
+
+❤️ Wir sind ein Team. ❤️
+
+Wait approximately 3 seconds.
+
+Automatically continue to the next page.
+
+------------------------------------------------------------
+
+MEMORY
+
+Save internally:
+
+quizCompleted = true
+
+Continue using the existing answer object.
+
+Do not display this information.
+
+------------------------------------------------------------
+
+IMPORTANT
+
+Do NOT modify previous pages.
+
+Do NOT redesign previous chapters.
+
+Do NOT change navigation.
+
+Do NOT change fonts.
+
+Do NOT change colors on previous pages.
+
+Do NOT change existing animations.
+
+Only replace the automatically generated final page.
+
+Everything else must remain exactly the same.
