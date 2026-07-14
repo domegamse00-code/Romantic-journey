@@ -7,9 +7,11 @@ import { WordPuzzleStep } from '@/steps/WordPuzzleStep';
 import { DateAskStep } from '@/steps/DateAskStep';
 import { FoodChoiceStep } from '@/steps/FoodChoiceStep';
 import { ActivityChoiceStep } from '@/steps/ActivityChoiceStep';
+import { DateTimeStep } from '@/steps/DateTimeStep';
 import { FloatingHearts } from '@/components/FloatingHearts';
 import { FloatingFood } from '@/components/FloatingFood';
 import { FloatingHeartsPremium } from '@/components/FloatingHeartsPremium';
+import { NightSky } from '@/components/NightSky';
 
 export default function Adventure() {
   const [currentStep, setCurrentStep] = useState(0);
@@ -32,17 +34,22 @@ export default function Adventure() {
     <WordPuzzleStep onNext={nextStep} />,
     <DateAskStep onNext={nextStep} />,
     <FoodChoiceStep onNext={nextStep} />,
-    <ActivityChoiceStep onNext={nextStep} />
+    <ActivityChoiceStep onNext={nextStep} />,
+    <DateTimeStep onNext={nextStep} />
   ];
 
   const FOOD_STEP_INDEX = 6;
   const ACTIVITY_STEP_INDEX = 7;
+  const DATE_STEP_INDEX = 8;
   const isChapterTwo = currentStep === ACTIVITY_STEP_INDEX;
+  const isChapterThree = currentStep === DATE_STEP_INDEX;
 
   return (
-    <div className={`min-h-[100dvh] w-full overflow-hidden relative flex items-center justify-center p-4 sm:p-8 ${isChapterTwo ? 'bg-[#0b0611]' : 'bg-background'}`}>
-      {/* Decorative gradient orbs — cinematic dark theme for Chapter 2, light theme everywhere else */}
-      {isChapterTwo ? (
+    <div className={`min-h-[100dvh] w-full relative flex items-center justify-center p-4 sm:p-8 ${isChapterThree ? 'overflow-y-auto overflow-x-hidden py-10' : 'overflow-hidden'} ${isChapterTwo || isChapterThree ? 'bg-[#0b0611]' : 'bg-background'}`}>
+      {/* Decorative gradient orbs — cinematic dark theme for Chapters 2 & 3, light theme everywhere else */}
+      {isChapterThree ? (
+        <NightSky />
+      ) : isChapterTwo ? (
         <>
           <div className="fixed inset-0 bg-gradient-to-br from-[#1a0b2e] via-[#120a1f] to-black pointer-events-none" />
           <div className="fixed top-[-15%] left-[-10%] w-[70%] h-[60%] rounded-full bg-primary/25 blur-[140px] pointer-events-none" />
@@ -58,7 +65,7 @@ export default function Adventure() {
       
       {currentStep === FOOD_STEP_INDEX ? (
         <FloatingFood />
-      ) : currentStep === ACTIVITY_STEP_INDEX ? (
+      ) : currentStep === ACTIVITY_STEP_INDEX || currentStep === DATE_STEP_INDEX ? (
         <FloatingHeartsPremium />
       ) : (
         <FloatingHearts />

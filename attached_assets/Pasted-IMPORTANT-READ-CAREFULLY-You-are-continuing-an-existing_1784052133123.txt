@@ -1,0 +1,263 @@
+IMPORTANT - READ CAREFULLY
+
+You are continuing an existing interactive romantic website.
+
+DO NOT redesign, rebuild or modify any previous pages.
+
+Keep EVERYTHING exactly as it currently is.
+
+That includes:
+
+• Previous pages
+• Colors
+• Navigation
+• Fonts
+• Buttons
+• Animations
+• Glassmorphism
+• Shadows
+• Responsive layout
+• Stored answers
+• Transitions
+
+Everything created so far must stay exactly the same.
+
+------------------------------------------------------------
+
+IMPORTANT
+
+Connect the previous Activity page to this page.
+
+After the activity animation finishes, automatically navigate to this page.
+
+Remove ONLY the automatically generated final page and replace it with the page below.
+
+Do NOT modify anything else.
+
+------------------------------------------------------------
+
+PROGRESS
+
+This is Chapter 3 of 5.
+
+Show at the top:
+
+❤️❤️❤️🤍🤍
+
+Kapitel 3 von 5
+
+The hearts should softly glow and pulse every few seconds.
+
+------------------------------------------------------------
+
+GENERAL DESIGN
+
+This page should be the most beautiful page created so far.
+
+The atmosphere should feel magical, romantic and dreamy.
+
+Use a full-screen cinematic night background.
+
+Create a large realistic glowing moon on the right side.
+
+The moon should emit soft pink and white light.
+
+The sky should contain thousands of tiny glowing stars.
+
+Some stars should twinkle slowly.
+
+Add soft pink clouds near the bottom.
+
+Create a beautiful lake/ocean reflection at the bottom that reflects the moonlight.
+
+The background should feel deep and cinematic.
+
+------------------------------------------------------------
+
+ANIMATIONS
+
+Floating pink hearts should slowly move through the scene.
+
+Use different sizes.
+
+Different opacity.
+
+Different speeds.
+
+Some blurred.
+
+Some sharp.
+
+Every 3–5 seconds create a beautiful shooting star.
+
+Each shooting star should travel diagonally across the sky.
+
+Different starting positions every time.
+
+Smooth animation.
+
+Leave a glowing trail.
+
+Sometimes multiple shooting stars can appear close together.
+
+The page should always feel alive.
+
+------------------------------------------------------------
+
+MAIN CARD
+
+Create one large premium glassmorphism card.
+
+The card should be centered.
+
+Large rounded corners.
+
+Soft blur.
+
+Luxury appearance.
+
+Pink glow around the edges.
+
+Soft shadow.
+
+------------------------------------------------------------
+
+HEADLINE
+
+🌙 Wann passt es dir am besten?
+
+Subtitle:
+
+"Wähle einfach einen Tag und eine Uhrzeit aus. ❤️"
+
+------------------------------------------------------------
+
+DATE
+
+Display a beautiful modern calendar.
+
+Show the complete year 2026.
+
+Allow selecting every day.
+
+The selected date should glow pink.
+
+Animate the selected day.
+
+Store internally as:
+
+selectedDate
+
+------------------------------------------------------------
+
+TIME
+
+Below the calendar display:
+
+🕒 Uhrzeit auswählen
+
+Create a modern time input.
+
+Allow manual time input.
+
+Also provide quick selection buttons:
+
+17:00
+
+18:00
+
+19:00
+
+20:00
+
+21:00
+
+22:00
+
+The visitor may either click one of these buttons OR enter a custom time manually.
+
+Store internally as:
+
+selectedTime
+
+------------------------------------------------------------
+
+CONTINUE BUTTON
+
+Disable the button until BOTH a date and a time are selected.
+
+Button text:
+
+❤️ Weiter ❤️
+
+When both values exist:
+
+Enable the button with a soft glowing animation.
+
+------------------------------------------------------------
+
+WHEN "WEITER" IS CLICKED
+
+Save:
+
+selectedDate
+
+selectedTime
+
+inside the existing answer object.
+
+Do NOT display this information.
+
+Darken the screen slightly.
+
+Play a beautiful romantic transition.
+
+Display:
+
+✨ Perfekt! ❤️
+
+Then:
+
+"Ich freue mich schon riesig auf unseren gemeinsamen Tag."
+
+Wait approximately 2 seconds.
+
+Automatically continue to the next page.
+
+------------------------------------------------------------
+
+MEMORY SYSTEM
+
+Continue using the existing answer object.
+
+Save:
+
+selectedDate
+
+selectedTime
+
+We will later export all answers together.
+
+------------------------------------------------------------
+
+VERY IMPORTANT
+
+Do NOT modify previous pages.
+
+Do NOT redesign previous pages.
+
+Do NOT change navigation.
+
+Do NOT change colors.
+
+Do NOT change fonts.
+
+Do NOT change previous animations.
+
+Only replace the automatically generated final page.
+
+Everything else must remain exactly the same.
+
+The visual quality of this page should be significantly higher than the previous pages.
+
+Make it feel like a premium romantic web application.
